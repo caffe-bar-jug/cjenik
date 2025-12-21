@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Caffe bar Jug</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #f6f5f3;
+      --card: #ffffff;
+      --text: #1f1f1f;
+      --muted: #777;
+      --accent: #7a4a2e;
+      --border: #e2e2e2;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    /* HEADER / BRAND */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      padding: 18px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.1;
+    }
+
+    .brand-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 24px;
+      letter-spacing: 1px;
+      color: var(--accent);
+    }
+
+    .brand-subtitle {
+      font-size: 12px;
+      letter-spacing: 2px;
+      color: var(--muted);
+      text-transform: uppercase;
+    }
+
+    select {
+      padding: 6px 10px;
+      font-size: 14px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: #fff;
+    }
+
+    /* CONTENT */
+    main {
+      padding: 24px 20px;
+      max-width: 760px;
+      margin: auto;
+    }
+
+    section {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 18px;
+      margin-bottom: 22px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+    }
+
+    section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 19px;
+      margin: 0 0 14px 0;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+      color: var(--accent);
+    }
+
+    .menu-item {
+        display: grid;
+        grid-template-columns: 1fr auto auto;
+        gap: 12px;
+        align-items: center;
+    }
+
+    .quantity {
+        font-size: 13px;
+        color: var(--muted);
+        white-space: nowrap;
+    }
+
+
+    .menu-item:not(:last-child) {
+      border-bottom: 1px dashed var(--border);
+    }
+
+    .price {
+        font-weight: 600;
+        color: var(--accent);
+        width: 72px;              /* fixed width for alignment */
+        text-align: right;
+        font-variant-numeric: tabular-nums;
+    }
+
+
+    /* FOOTER */
+    footer {
+        text-align: center;
+        padding: 28px 16px;
+        font-size: 13px;
+        color: var(--muted);
+        line-height: 1.6;
+    }
+
+    footer strong {
+        color: var(--text);
+    }
+
+    .disclaimer {
+        margin-top: 12px;
+        font-size: 12px;
+        color: #999;
+    }
+
+
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <div class="brand-name" style="margin-bottom: 10px;">CAFFE BAR JUG</div>
+    <div class="brand-subtitle" id="menu-title">Cjenik</div>
+  </div>
+
+  <select id="language-selector">
+    <option value="hr" selected>HR</option>
+    <option value="en">EN</option>
+    <option value="de">DE</option>
+  </select>
+</header>
+
+<main id="menu"></main>
+
+<footer>
+  <strong>GARES-TIN d.o.o.</strong><br>
+  Caffe bar "Jug"<br>
+  Zagrebačka 47, 42000 Varaždin
+
+  <div class="disclaimer" id="disclaimer"></div>
+</footer>
+
+
+<script>
+  const menuContainer = document.getElementById('menu');
+  const languageSelector = document.getElementById('language-selector');
+  const menuTitle = document.getElementById('menu-title');
+  const disclaimerEl = document.getElementById('disclaimer');
+
+  const titles = {
+    hr: 'Cjenik',
+    en: 'Menu',
+    de: 'Preisliste'
+  };
+
+  function loadMenu(language) {
+    fetch(`menu-${language}.json`)
+      .then(response => response.json())
+      .then(data => {
+        menuContainer.innerHTML = '';
+        menuTitle.textContent = titles[language];
+        disclaimerEl.textContent = data.disclaimer;
+
+        data.categories.forEach(category => {
+          const section = document.createElement('section');
+
+          const heading = document.createElement('h2');
+          heading.textContent = category.name;
+          section.appendChild(heading);
+
+          category.items.forEach(item => {
+            const row = document.createElement('div');
+            row.className = 'menu-item';
+            row.innerHTML = `
+                <span>${item.name}</span>
+                <span class="quantity">${item.quantity}</span>
+                <span class="price">${item.price} €</span>
+            `;
+            section.appendChild(row);
+          });
+
+          menuContainer.appendChild(section);
+        });
+      })
+      .catch(() => {
+        menuContainer.innerHTML = '<p>Menu not available.</p>';
+      });
+  }
+
+  loadMenu('hr');
+
+  languageSelector.addEventListener('change', () => {
+    loadMenu(languageSelector.value);
+  });
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,145 @@
+{
+  "disclaimer": "Personen unter 18 Jahren wird kein Alkohol ausgeschenkt und der Konsum alkoholischer Getränke im Lokal ist untersagt. Alkohol wird nicht an offensichtlich alkoholisierte Personen ausgeschenkt. Die Mehrwertsteuer ist im Preis enthalten.",
+  "categories": [
+    {
+      "name": "Heiße Getränke",
+      "items": [
+        { "name": "Kaffee", "quantity": "Tasse", "price": "1.70" },
+        { "name": "Kaffee mit Milch", "quantity": "Tasse", "price": "1.90" },
+        { "name": "Kaffee mit Schlagsahne", "quantity": "Tasse", "price": "2.00" },
+        { "name": "Kaffee mit Sahne", "quantity": "Tasse", "price": "2.00" },
+
+        { "name": "Entkoffeinierter Kaffee", "quantity": "Tasse", "price": "2.00" },
+        { "name": "Entkoffeinierter Kaffee mit Milch", "quantity": "Tasse", "price": "2.20" },
+
+        { "name": "Tee", "quantity": "Tasse", "price": "1.50" },
+        { "name": "Tee mit Honig", "quantity": "Tasse", "price": "1.80" },
+        { "name": "Cappuccino", "quantity": "Tasse", "price": "2.20" },
+
+        { "name": "Schlagsahne", "quantity": "Portion", "price": "0.30" },
+        { "name": "Sahne", "quantity": "10 g", "price": "0.30" },
+        { "name": "Milch", "quantity": "1,00 l", "price": "4.00" }
+      ]
+    },
+    {
+      "name": "Alkoholfreie Getränke",
+      "items": [
+        { "name": "Coca-Cola", "quantity": "0,25 l", "price": "2.70" },
+        { "name": "Coca-Cola Zero", "quantity": "0,25 l", "price": "2.70" },
+        { "name": "Sprite", "quantity": "0,25 l", "price": "2.70" },
+        { "name": "Fanta", "quantity": "0,25 l", "price": "2.70" },
+        { "name": "Cockta", "quantity": "0,25 l", "price": "2.70" },
+        { "name": "Schweppes Tangerine", "quantity": "0,25 l", "price": "2.70" },
+        { "name": "Schweppes Bitter Lemon", "quantity": "0,25 l", "price": "2.70" },
+        { "name": "Schweppes Tonic Water", "quantity": "0,25 l", "price": "2.70" },
+        { "name": "Eistee", "quantity": "0,25 l", "price": "2.70" },
+
+        { "name": "Juicy Vita", "quantity": "20 g", "price": "2.00" },
+
+        { "name": "Orangensaft", "quantity": "0,20 l", "price": "2.70" },
+        { "name": "Johannisbeersaft", "quantity": "0,20 l", "price": "2.70" },
+        { "name": "Apfelsaft", "quantity": "0,20 l", "price": "2.70" },
+        { "name": "Erdbeersaft", "quantity": "0,20 l", "price": "2.70" },
+
+        { "name": "Hell Energy Drink", "quantity": "0,25 l", "price": "2.50" },
+        { "name": "Iso Twist", "quantity": "0,50 l", "price": "3.00" },
+        { "name": "Hidra", "quantity": "0,50 l", "price": "3.00" },
+
+        { "name": "Stilles Wasser", "quantity": "0,50 l", "price": "2.70" },
+        { "name": "Zitronenwasser", "quantity": "0,50 l", "price": "2.70" },
+        { "name": "Mineralwasser", "quantity": "1,00 l", "price": "4.00" }
+      ]
+    },
+    {
+      "name": "Bier",
+      "items": [
+        { "name": "Pan vom Fass", "quantity": "0,20 l", "price": "1.00" },
+        { "name": "Pan vom Fass", "quantity": "0,30 l", "price": "1.50" },
+        { "name": "Pan vom Fass", "quantity": "0,50 l", "price": "2.50" },
+
+        { "name": "Pan", "quantity": "0,50 l", "price": "2.50" },
+        { "name": "Pan", "quantity": "0,33 l", "price": "2.40" },
+        { "name": "Pan Zlatni", "quantity": "0,50 l", "price": "2.70" },
+
+        { "name": "Pan alkoholfrei", "quantity": "0,50 l", "price": "2.70" },
+        { "name": "Pan Radler", "quantity": "0,50 l", "price": "2.70" },
+
+        { "name": "Tomislav", "quantity": "0,50 l", "price": "2.70" },
+        { "name": "Budweiser", "quantity": "0,50 l", "price": "3.00" },
+        { "name": "Ožujsko", "quantity": "0,50 l", "price": "2.70" },
+        { "name": "Karlovačko", "quantity": "0,50 l", "price": "2.70" },
+        { "name": "Carlsberg", "quantity": "0,40 l", "price": "3.00" },
+        { "name": "Blanc", "quantity": "0,33 l", "price": "3.00" },
+
+        { "name": "Heineken", "quantity": "0,40 l", "price": "3.00" },
+        { "name": "Heineken alkoholfrei", "quantity": "0,33 l", "price": "3.00" }
+      ]
+    },
+    {
+      "name": "Wein",
+      "items": [
+        { "name": "Weißwein", "quantity": "1,00 l", "price": "10.00" },
+        { "name": "Rotwein", "quantity": "1,00 l", "price": "10.00" },
+
+        { "name": "Spritzer", "quantity": "0,20 l", "price": "1.40" },
+        { "name": "Somersby", "quantity": "0,33 l", "price": "3.00" }
+      ]
+    },
+    {
+      "name": "Spirituosen",
+      "items": [
+        { "name": "Cognac", "quantity": "0,03 l", "price": "1.50" },
+        { "name": "Wodka", "quantity": "0,03 l", "price": "1.50" },
+        { "name": "Rum", "quantity": "0,03 l", "price": "1.50" },
+        { "name": "Kräuterbrand (Travarica)", "quantity": "0,03 l", "price": "1.50" },
+
+        { "name": "Stock", "quantity": "0,03 l", "price": "1.80" },
+        { "name": "Blacky", "quantity": "0,03 l", "price": "1.80" },
+
+        { "name": "Cognac", "quantity": "0,05 l", "price": "2.50" },
+        { "name": "Wodka", "quantity": "0,05 l", "price": "2.50" },
+        { "name": "Rum", "quantity": "0,05 l", "price": "2.50" },
+        { "name": "Kräuterbrand (Travarica)", "quantity": "0,05 l", "price": "2.50" },
+
+        { "name": "Stock", "quantity": "0,05 l", "price": "3.00" },
+        { "name": "Blacky", "quantity": "0,05 l", "price": "3.00" }
+      ]
+    },
+    {
+      "name": "Liköre",
+      "items": [
+        { "name": "Menthol", "quantity": "0,03 l", "price": "1.50" },
+        { "name": "Amaro", "quantity": "0,03 l", "price": "1.50" },
+        { "name": "Pelinkovac", "quantity": "0,03 l", "price": "1.50" },
+        { "name": "Birnenlikör", "quantity": "0,03 l", "price": "1.50" },
+        { "name": "Kirschlikör", "quantity": "0,03 l", "price": "1.50" },
+        { "name": "Honiglikör (Medica)", "quantity": "0,03 l", "price": "1.50" },
+
+        { "name": "Menthol", "quantity": "0,05 l", "price": "2.50" },
+        { "name": "Amaro", "quantity": "0,05 l", "price": "2.50" },
+        { "name": "Pelinkovac", "quantity": "0,05 l", "price": "2.50" },
+        { "name": "Birnenlikör", "quantity": "0,05 l", "price": "2.50" },
+        { "name": "Kirschlikör", "quantity": "0,05 l", "price": "2.50" },
+        { "name": "Honiglikör (Medica)", "quantity": "0,05 l", "price": "2.50" }
+      ]
+    },
+    {
+      "name": "Importierte Spirituosen",
+      "items": [
+        { "name": "Ballantine’s", "quantity": "0,03 l", "price": "1.80" },
+        { "name": "Tequila", "quantity": "0,03 l", "price": "1.80" },
+        { "name": "Jägermeister", "quantity": "0,03 l", "price": "1.80" },
+
+        { "name": "Jack Daniel’s", "quantity": "0,03 l", "price": "2.10" },
+        { "name": "Williams", "quantity": "0,03 l", "price": "2.10" },
+
+        { "name": "Ballantine’s", "quantity": "0,05 l", "price": "3.00" },
+        { "name": "Tequila", "quantity": "0,05 l", "price": "3.00" },
+        { "name": "Jägermeister", "quantity": "0,05 l", "price": "3.00" },
+
+        { "name": "Jack Daniel’s", "quantity": "0,05 l", "price": "3.50" },
+        { "name": "Williams", "quantity": "0,05 l", "price": "3.50" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "disclaimer": "Osobama mlađim od 18 godina ne točimo alkohol i zabranjeno im je konzumiranje alkoholnih pića u lokalu. Osobama u alkoholiziranom stanju ne točimo alkohol. U cijenu je uračunat PDV.",
+  "categories": [
+    {
+      "name": "Topli napitci",
+      "items": [
+        { "name": "Kava", "quantity": "šalica", "price": "1.70" },
+        { "name": "Kava s mlijekom", "quantity": "šalica", "price": "1.90" },
+        { "name": "Kava sa šlagom", "quantity": "šalica", "price": "2.00" },
+        { "name": "Kava s vrhnjem", "quantity": "šalica", "price": "2.00" },
+
+        { "name": "Bezkofeinska kava", "quantity": "šalica", "price": "2.00" },
+        { "name": "Bezkofeinska kava s mlijekom", "quantity": "šalica", "price": "2.20" },
+
+        { "name": "Čaj", "quantity": "šalica", "price": "1.50" },
+        { "name": "Čaj s medom", "quantity": "šalica", "price": "1.80" },
+        { "name": "Cappuccino", "quantity": "šalica", "price": "2.20" },
+
+        { "name": "Šlag", "quantity": "porcija", "price": "0.30" },
+        { "name": "Vrhnje", "quantity": "10 g", "price": "0.30" },
+        { "name": "Mlijeko", "quantity": "1,00 l", "price": "4.00" }
+      ]
+    }
+    ,
+    {
+    "name": "Bezalkoholna pića",
+    "items": [
+        { "name": "Coca Cola", "quantity": "0,25 l", "price": "2.70" },
+        { "name": "Coca Cola Zero", "quantity": "0,25 l", "price": "2.70" },
+        { "name": "Sprite", "quantity": "0,25 l", "price": "2.70" },
+        { "name": "Fanta", "quantity": "0,25 l", "price": "2.70" },
+        { "name": "Cockta", "quantity": "0,25 l", "price": "2.70" },
+        { "name": "Schweppes Tangerine", "quantity": "0,25 l", "price": "2.70" },
+        { "name": "Schweppes Bitter Lemon", "quantity": "0,25 l", "price": "2.70" },
+        { "name": "Schweppes Tonic Water", "quantity": "0,25 l", "price": "2.70" },
+        { "name": "Ledeni čaj", "quantity": "0,25 l", "price": "2.70" },
+
+        { "name": "Juicy Vita", "quantity": "20 g", "price": "2.00" },
+
+        { "name": "Juice naranča", "quantity": "0,20 l", "price": "2.70" },
+        { "name": "Juice ribiz", "quantity": "0,20 l", "price": "2.70" },
+        { "name": "Juice jabuka", "quantity": "0,20 l", "price": "2.70" },
+        { "name": "Juice jagoda", "quantity": "0,20 l", "price": "2.70" },
+
+        { "name": "Hell energetsko piće", "quantity": "0.25 l", "price": "2.50" },
+        { "name": "Iso Twist", "quantity": "0,50 l", "price": "3.00" },
+        { "name": "Hidra", "quantity": "0,50 l", "price": "3.00" }, 
+
+        { "name": "Negazirana voda", "quantity": "0,50 l", "price": "2.70" },
+        { "name": "Voda s okusom limuna", "quantity": "0,50 l", "price": "2.70" },
+        { "name": "Mineralna voda", "quantity": "1,00 l", "price": "4.00" }
+    ]
+    },
+    {
+        "name": "Pivo",
+        "items": [
+            { "name": "Točeno Pan", "quantity": "0,20 l", "price": "1.00" },
+            { "name": "Točeno Pan", "quantity": "0,30 l", "price": "1.50" },
+            { "name": "Točeno Pan", "quantity": "0,50 l", "price": "2.50" },
+
+            { "name": "Pan", "quantity": "0,50 l", "price": "2.50" },
+            { "name": "Pan", "quantity": "0,33 l", "price": "2.40" },
+            { "name": "Pan Zlatni", "quantity": "0,50 l", "price": "2.70" },
+
+            { "name": "Pan bez alkohola", "quantity": "0,50 l", "price": "2.70" },
+            { "name": "Pan Radler", "quantity": "0,50 l", "price": "2.70" },
+
+            { "name": "Tomislav", "quantity": "0,50 l", "price": "2.70" },
+            { "name": "Budweiser", "quantity": "0,50 l", "price": "3.00" },
+            { "name": "Ožujsko", "quantity": "0,50 l", "price": "2.70" },
+            { "name": "Karlovačko", "quantity": "0,50 l", "price": "2.70" },
+            { "name": "Carlsberg", "quantity": "0,40 l", "price": "3.00" },
+            { "name": "Blanc", "quantity": "0,33 l", "price": "3.00" },
+
+            { "name": "Heineken", "quantity": "0,40 l", "price": "3.00" },
+            { "name": "Heineken bez alkohola", "quantity": "0,33 l", "price": "3.00" }
+        ]
+    },
+    {
+        "name": "Vino",
+        "items": [
+            { "name": "Vino bijelo", "quantity": "1,00 l", "price": "10.00" },
+            { "name": "Vino crno", "quantity": "1,00 l", "price": "10.00" },
+
+            { "name": "Gemišt", "quantity": "0,20 l", "price": "1.40" },
+            { "name": "Somersby", "quantity": "0,33 l", "price": "3.00" }
+        ]
+    },
+    {
+        "name": "Jaka alkoholna pića",
+        "items": [
+            { "name": "Konjak", "quantity": "0,03 l", "price": "1.50" },
+            { "name": "Vodka", "quantity": "0,03 l", "price": "1.50" },
+            { "name": "Rum", "quantity": "0,03 l", "price": "1.50" },
+            { "name": "Travarica", "quantity": "0,03 l", "price": "1.50" },
+
+            { "name": "Stock", "quantity": "0,03 l", "price": "1.80" },
+            { "name": "Blacky", "quantity": "0,03 l", "price": "1.80" },
+
+            { "name": "Konjak", "quantity": "0,05 l", "price": "2.50" },
+            { "name": "Vodka", "quantity": "0,05 l", "price": "2.50" },
+            { "name": "Rum", "quantity": "0,05 l", "price": "2.50" },
+            { "name": "Travarica", "quantity": "0,05 l", "price": "2.50" },
+
+            { "name": "Stock", "quantity": "0,05 l", "price": "3.00" },
+            { "name": "Blacky", "quantity": "0,05 l", "price": "3.00" }
+        ]
+    },
+    {
+        "name": "Likeri",
+        "items": [
+            { "name": "Mentol", "quantity": "0,03 l", "price": "1.50" },
+            { "name": "Amaro", "quantity": "0,03 l", "price": "1.50" },
+            { "name": "Pelinkovac", "quantity": "0,03 l", "price": "1.50" },
+            { "name": "Kruškovac", "quantity": "0,03 l", "price": "1.50" },
+            { "name": "Cherry Brandy", "quantity": "0,03 l", "price": "1.50" },
+            { "name": "Medica", "quantity": "0,03 l", "price": "1.50" },
+
+            { "name": "Mentol", "quantity": "0,05 l", "price": "2.50" },
+            { "name": "Amaro", "quantity": "0,05 l", "price": "2.50" },
+            { "name": "Pelinkovac", "quantity": "0,05 l", "price": "2.50" },
+            { "name": "Kruškovac", "quantity": "0,05 l", "price": "2.50" },
+            { "name": "Cherry Brandy", "quantity": "0,05 l", "price": "2.50" },
+            { "name": "Medica", "quantity": "0,05 l", "price": "2.50" }
+        ]
+    },
+    {
+        "name": "Strana jaka alkoholna pića",
+        "items": [
+            { "name": "Ballantine's", "quantity": "0,03 l", "price": "1.80" },
+            { "name": "Tequila", "quantity": "0,03 l", "price": "1.80" },
+            { "name": "Jägermeister", "quantity": "0,03 l", "price": "1.80" },
+
+            { "name": "Jack Daniels", "quantity": "0,03 l", "price": "2.10" },
+            { "name": "Viljamovka", "quantity": "0,03 l", "price": "2.10" },
+
+            { "name": "Ballantine's", "quantity": "0,05 l", "price": "3.00" },
+            { "name": "Tequila", "quantity": "0,05 l", "price": "3.00" },
+            { "name": "Jägermeister", "quantity": "0,05 l", "price": "3.00" },
+
+            { "name": "Jack Daniels", "quantity": "0,05 l", "price": "3.50" },
+            { "name": "Viljamovka", "quantity": "0,05 l", "price": "3.50" }
+        ]
+    }
+
+  ]
+}
+
