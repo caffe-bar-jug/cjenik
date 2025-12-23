@@ -1,5 +1,80 @@
 {
   "disclaimer": "We do not serve alcohol to persons under 18 and consumption of alcoholic beverages by minors is prohibited on the premises. We do not serve alcohol to intoxicated persons. VAT is included in the price.",
+  "normatives": [
+    {
+      "title": "Coffee",
+      "lines": [
+        "10 g of coffee",
+        "5 g of sugar",
+        "0.05 l of water"
+      ]
+    },
+    {
+      "title": "Coffee with Milk",
+      "lines": [
+        "10 g of coffee",
+        "5 g of sugar",
+        "0.05 l of water",
+        "0.05 l of milk"
+      ]
+    },
+    {
+      "title": "Tea",
+      "lines": [
+        "3 g filter bag",
+        "10 g of sugar",
+        "0.20 l of water",
+        "10–15 g of honey"
+      ]
+    },
+    {
+      "title": "Coffee with Whipped Cream",
+      "lines": [
+        "10 g of coffee",
+        "5 g of sugar",
+        "0.05 l of water",
+        "25 ml of whipped cream"
+      ]
+    },
+    {
+      "title": "Coffee with Cream",
+      "lines": [
+        "10 g of coffee",
+        "5 g of sugar",
+        "0.05 l of water",
+        "10 g of cream"
+      ]
+    },
+    {
+      "title": "Franck Cappuccino",
+      "lines": [
+        "Franck bag 12.5–20 g",
+        "5 g of sugar",
+        "0.15 l of milk"
+      ]
+    },
+    {
+      "title": "Gemišt (Spritzer)",
+      "lines": [
+        "0.10 l of white wine",
+        "0.10 l of sparkling water"
+      ]
+    },
+    {
+      "title": "Bambus",
+      "lines": [
+        "0.10 l of red wine",
+        "Coca-Cola 0.25 l"
+      ]
+    },
+    {
+      "title": "Cedevita",
+      "lines": [
+        "20 g Juicy Vita bag",
+        "0.2–0.3 l of water"
+      ]
+    }
+  ],
   "categories": [
     {
       "name": "Hot Beverages",

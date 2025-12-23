@@ -1,5 +1,80 @@
 {
   "disclaimer": "Osobama mlađim od 18 godina ne točimo alkohol i zabranjeno im je konzumiranje alkoholnih pića u lokalu. Osobama u alkoholiziranom stanju ne točimo alkohol. U cijenu je uračunat PDV.",
+  "normatives": [
+    {
+      "title": "Kava",
+      "lines": [
+        "10 g kave",
+        "5 g šećera",
+        "0,05 l vode"
+      ]
+    },
+    {
+      "title": "Kava s mlijekom",
+      "lines": [
+        "10 g kave",
+        "5 g šećera",
+        "0,05 l vode",
+        "0.05 l mlijeka"
+      ]
+    },
+    {
+      "title": "Čaj",
+      "lines": [
+        "3g filter vrećica",
+        "10 g šećera",
+        "0,20 l vode",
+        "10-15 g meda"
+      ]
+    },
+    {
+      "title": "Kava sa šlagom",
+      "lines": [
+        "10 g kave",
+        "5 g šećera",
+        "0,05 l vode",
+        "25 ml šlaga"
+      ]
+    },
+    {
+      "title": "Kava s vrhnjem",
+      "lines": [
+        "10 g kave",
+        "5 g šećera",
+        "0,05 l vode",
+        "10 g vrhnja"
+      ]
+    },
+    {
+      "title": "Franck Cappuccino",
+      "lines": [
+        "Franck vrećica 12,5-20 g",
+        "5 g šećera",
+        "0,15 l mlijeka"
+      ]
+    },
+    {
+      "title": "Gemišt",
+      "lines": [
+        "0,10 l bijelog vina",
+        "0,10 l mineralne vode"
+      ]
+    },
+    {
+      "title": "Bambus",
+      "lines": [
+        "0,10 l crnog vina",
+        "COCA-COLA 0,25 l"
+      ]
+    },
+    {
+      "title": "Cedevita",
+      "lines": [
+        "20 g Juicy Vita vrećica",
+        "0,2-0,3 l vode"
+      ]
+    }
+  ],
   "categories": [
     {
       "name": "Topli napitci",

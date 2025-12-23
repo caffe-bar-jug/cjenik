@@ -19,9 +19,7 @@
       --border: #e2e2e2;
     }
 
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
     body {
       margin: 0;
@@ -30,7 +28,6 @@
       color: var(--text);
     }
 
-    /* HEADER / BRAND */
     header {
       position: sticky;
       top: 0;
@@ -71,7 +68,6 @@
       background: #fff;
     }
 
-    /* CONTENT */
     main {
       padding: 24px 20px;
       max-width: 760px;
@@ -108,7 +104,6 @@
         white-space: nowrap;
     }
 
-
     .menu-item:not(:last-child) {
       border-bottom: 1px dashed var(--border);
     }
@@ -116,13 +111,47 @@
     .price {
         font-weight: 600;
         color: var(--accent);
-        width: 72px;              /* fixed width for alignment */
+        width: 72px;
         text-align: right;
         font-variant-numeric: tabular-nums;
     }
 
+    /* NORMATIVI */
+    .normativi-wrapper {
+        max-width: 760px;
+        margin: 20px auto 0 auto;
+        padding: 0 20px;
+        font-size: 12px;
+        color: #999;
+    }
 
-    /* FOOTER */
+    .normativi-toggle {
+        cursor: pointer;
+        text-align: center;
+        color: #999;
+        padding: 8px 0;
+        border-top: 1px solid var(--border);
+        user-select: none;
+    }
+
+    .normativi-content {
+        max-height: 0;     /* collapsed by default */
+        overflow: hidden;
+        transition: max-height 0.25s ease-out;
+    }
+
+    .normativi-inner {
+        padding: 10px 4px 0 4px;
+        line-height: 1.45;
+        color: #999;
+    }
+
+    .normativi-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 16px;
+    }
+
     footer {
         text-align: center;
         padding: 28px 16px;
@@ -131,9 +160,7 @@
         line-height: 1.6;
     }
 
-    footer strong {
-        color: var(--text);
-    }
+    footer strong { color: var(--text); }
 
     .disclaimer {
         margin-top: 12px;
@@ -141,9 +168,9 @@
         color: #999;
     }
 
-
   </style>
 </head>
+
 <body>
 
 <header>
@@ -161,14 +188,22 @@
 
 <main id="menu"></main>
 
+<div class="normativi-wrapper">
+    <div class="normativi-toggle" id="normativiToggle">Normativi ▼</div>
+
+    <div class="normativi-content" id="normativiContent">
+        <div class="normativi-inner">
+            <div class="normativi-grid" id="normativesGrid"></div>
+        </div>
+    </div>
+</div>
+
 <footer>
   <strong>GARES-TIN d.o.o.</strong><br>
   Caffe bar "Jug"<br>
   Zagrebačka 47, 42000 Varaždin
-
   <div class="disclaimer" id="disclaimer"></div>
 </footer>
-
 
 <script>
   const menuContainer = document.getElementById('menu');
@@ -180,6 +215,12 @@
     hr: 'Cjenik',
     en: 'Menu',
     de: 'Preisliste'
+  };
+
+  const normativeTitles = {
+      hr: "Normativi",
+      en: "Preparation Standards",
+      de: "Zubereitungsnormen"
   };
 
   function loadMenu(language) {
@@ -210,19 +251,51 @@
 
           menuContainer.appendChild(section);
         });
-      })
-      .catch(() => {
-        menuContainer.innerHTML = '<p>Menu not available.</p>';
+
+        // NORMATIVES
+        const normGrid = document.getElementById("normativesGrid");
+        normGrid.innerHTML = "";
+
+        if (data.normatives) {
+          data.normatives.forEach(block => {
+            const col = document.createElement("div");
+            let html = `<strong>${block.title}</strong><br>`;
+            block.lines.forEach(line => html += `${line}<br>`);
+            col.innerHTML = html;
+            normGrid.appendChild(col);
+          });
+        }
+
+        // Keep collapsed on language change
+        const toggle = document.getElementById("normativiToggle");
+        const content = document.getElementById("normativiContent");
+
+        toggle.textContent = normativeTitles[language] + " ▼";
+        content.style.maxHeight = "0px";
+
       });
   }
 
   loadMenu('hr');
 
-  languageSelector.addEventListener('change', () => {
-    loadMenu(languageSelector.value);
-  });
-</script>
+  // COLLAPSE / EXPAND LOGIC
+  const toggle = document.getElementById('normativiToggle');
+  const content = document.getElementById('normativiContent');
 
+  toggle.addEventListener('click', () => {
+    const lang = languageSelector.value;
+
+    if (content.style.maxHeight && content.style.maxHeight !== "0px") {
+      content.style.maxHeight = "0px";
+      toggle.textContent = normativeTitles[lang] + " ▼";
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+      toggle.textContent = normativeTitles[lang] + " ▲";
+    }
+  });
+
+  languageSelector.addEventListener('change', () => loadMenu(languageSelector.value));
+</script>
 
 </body>
 </html>

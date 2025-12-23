@@ -1,5 +1,80 @@
 {
   "disclaimer": "Personen unter 18 Jahren wird kein Alkohol ausgeschenkt und der Konsum alkoholischer Getränke im Lokal ist untersagt. Alkohol wird nicht an offensichtlich alkoholisierte Personen ausgeschenkt. Die Mehrwertsteuer ist im Preis enthalten.",
+  "normatives": [
+    {
+      "title": "Kaffee",
+      "lines": [
+        "10 g Kaffee",
+        "5 g Zucker",
+        "0,05 l Wasser"
+      ]
+    },
+    {
+      "title": "Kaffee mit Milch",
+      "lines": [
+        "10 g Kaffee",
+        "5 g Zucker",
+        "0,05 l Wasser",
+        "0,05 l Milch"
+      ]
+    },
+    {
+      "title": "Tee",
+      "lines": [
+        "3 g Teebeutel",
+        "10 g Zucker",
+        "0,20 l Wasser",
+        "10–15 g Honig"
+      ]
+    },
+    {
+      "title": "Kaffee mit Schlagsahne",
+      "lines": [
+        "10 g Kaffee",
+        "5 g Zucker",
+        "0,05 l Wasser",
+        "25 ml Schlagsahne"
+      ]
+    },
+    {
+      "title": "Kaffee mit Sahne",
+      "lines": [
+        "10 g Kaffee",
+        "5 g Zucker",
+        "0,05 l Wasser",
+        "10 g Sahne"
+      ]
+    },
+    {
+      "title": "Franck Cappuccino",
+      "lines": [
+        "Franck-Beutel 12,5–20 g",
+        "5 g Zucker",
+        "0,15 l Milch"
+      ]
+    },
+    {
+      "title": "Gemišt (Weißweinschorle)",
+      "lines": [
+        "0,10 l Weißwein",
+        "0,10 l Mineralwasser mit Kohlensäure"
+      ]
+    },
+    {
+      "title": "Bambus",
+      "lines": [
+        "0,10 l Rotwein",
+        "Coca-Cola 0,25 l"
+      ]
+    },
+    {
+      "title": "Cedevita",
+      "lines": [
+        "20 g Juicy Vita Pulver",
+        "0,2–0,3 l Wasser"
+      ]
+    }
+  ],
   "categories": [
     {
       "name": "Heiße Getränke",
