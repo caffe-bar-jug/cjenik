@@ -64,7 +64,7 @@
       "title": "Bambus",
       "lines": [
         "0,10 l crnog vina",
-        "COCA-COLA 0,25 l"
+        "Coca-Cola 0,25 l"
       ]
     },
     {
@@ -100,8 +100,8 @@
     {
     "name": "Bezalkoholna pića",
     "items": [
-        { "name": "Coca Cola", "quantity": "0,25 l", "price": "2.70" },
-        { "name": "Coca Cola Zero", "quantity": "0,25 l", "price": "2.70" },
+        { "name": "Coca-Cola", "quantity": "0,25 l", "price": "2.70" },
+        { "name": "Coca-Cola Zero", "quantity": "0,25 l", "price": "2.70" },
         { "name": "Sprite", "quantity": "0,25 l", "price": "2.70" },
         { "name": "Fanta", "quantity": "0,25 l", "price": "2.70" },
         { "name": "Cockta", "quantity": "0,25 l", "price": "2.70" },
