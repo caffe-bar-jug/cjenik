@@ -23,6 +23,14 @@
       "lines": [
         "3 g filter bag",
         "10 g of sugar",
+        "0.20 l of water"
+      ]
+    },
+    {
+      "title": "Tea with honey",
+      "lines": [
+        "3 g filter bag",
+        "10 g of sugar",
         "0.20 l of water",
         "10–15 g of honey"
       ]
@@ -46,7 +54,24 @@
       ]
     },
     {
-      "title": "Franck Cappuccino",
+      "title": "Decaffeinated Coffee",
+      "lines": [
+        "7 g of decaffeinated coffee",
+        "5 g of sugar",
+        "0.05 l of water"
+      ]
+    },
+    {
+      "title": "Decaffeinated Coffee with Milk",
+      "lines": [
+        "7 g of decaffeinated coffee",
+        "5 g of sugar",
+        "0.05 l of water",
+        "0.05 l of milk"
+      ]
+    },
+    {
+      "title": "Cappuccino",
       "lines": [
         "Franck bag 12.5–20 g",
         "5 g of sugar",
@@ -61,14 +86,7 @@
       ]
     },
     {
-      "title": "Bambus",
-      "lines": [
-        "0.10 l of red wine",
-        "Coca-Cola 0.25 l"
-      ]
-    },
-    {
-      "title": "Cedevita",
+      "title": "Juicy Vita",
       "lines": [
         "20 g Juicy Vita bag",
         "0.2–0.3 l of water"
@@ -91,7 +109,7 @@
         { "name": "Tea with Honey", "quantity": "cup", "price": "1.80" },
         { "name": "Cappuccino", "quantity": "cup", "price": "2.20" },
 
-        { "name": "Whipped Cream", "quantity": "portion", "price": "0.30" },
+        { "name": "Whipped Cream", "quantity": "25 ml", "price": "0.30" },
         { "name": "Cream", "quantity": "10 g", "price": "0.30" },
         { "name": "Milk", "quantity": "1.00 l", "price": "4.00" }
       ]

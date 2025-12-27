@@ -23,6 +23,14 @@
       "lines": [
         "3g filter vrećica",
         "10 g šećera",
+        "0,20 l vode"
+      ]
+    },
+    {
+      "title": "Čaj s medom",
+      "lines": [
+        "3g filter vrećica",
+        "10 g šećera",
         "0,20 l vode",
         "10-15 g meda"
       ]
@@ -46,7 +54,24 @@
       ]
     },
     {
-      "title": "Franck Cappuccino",
+      "title": "Bezkofeinska kava",
+      "lines": [
+        "7 g bezkofeinske kave",
+        "5 g šećera",
+        "0,05 l vode"
+      ]
+    },
+    {
+      "title": "Bezkofeinska kava s mlijekom",
+      "lines": [
+        "7 g bezkofeinske kave",
+        "5 g šećera",
+        "0,05 l vode",
+        "0.05 l mlijeka"
+      ]
+    },
+    {
+      "title": "Cappuccino",
       "lines": [
         "Franck vrećica 12,5-20 g",
         "5 g šećera",
@@ -61,14 +86,7 @@
       ]
     },
     {
-      "title": "Bambus",
-      "lines": [
-        "0,10 l crnog vina",
-        "Coca-Cola 0,25 l"
-      ]
-    },
-    {
-      "title": "Cedevita",
+      "title": "Juicy Vita",
       "lines": [
         "20 g Juicy Vita vrećica",
         "0,2-0,3 l vode"
@@ -91,7 +109,7 @@
         { "name": "Čaj s medom", "quantity": "šalica", "price": "1.80" },
         { "name": "Cappuccino", "quantity": "šalica", "price": "2.20" },
 
-        { "name": "Šlag", "quantity": "porcija", "price": "0.30" },
+        { "name": "Šlag", "quantity": "25 ml", "price": "0.30" },
         { "name": "Vrhnje", "quantity": "10 g", "price": "0.30" },
         { "name": "Mlijeko", "quantity": "1,00 l", "price": "4.00" }
       ]

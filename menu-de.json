@@ -23,6 +23,14 @@
       "lines": [
         "3 g Teebeutel",
         "10 g Zucker",
+        "0,20 l Wasser"
+      ]
+    },
+    {
+      "title": "Tee mit Honig",
+      "lines": [
+        "3 g Teebeutel",
+        "10 g Zucker",
         "0,20 l Wasser",
         "10–15 g Honig"
       ]
@@ -46,7 +54,24 @@
       ]
     },
     {
-      "title": "Franck Cappuccino",
+      "title": "Entkoffeinierter Kaffee",
+      "lines": [
+        "7 g Entkoffeinierter Kaffee",
+        "5 g Zucker",
+        "0,05 l Wasser"
+      ]
+    },
+    {
+      "title": "Entkoffeinierter Kaffee mit Milch",
+      "lines": [
+        "7 g Entkoffeinierter Kaffee",
+        "5 g Zucker",
+        "0,05 l Wasser",
+        "0,05 l Milch"
+      ]
+    },
+    {
+      "title": "Cappuccino",
       "lines": [
         "Franck-Beutel 12,5–20 g",
         "5 g Zucker",
@@ -61,14 +86,7 @@
       ]
     },
     {
-      "title": "Bambus",
-      "lines": [
-        "0,10 l Rotwein",
-        "Coca-Cola 0,25 l"
-      ]
-    },
-    {
-      "title": "Cedevita",
+      "title": "Juicy Vita",
       "lines": [
         "20 g Juicy Vita Pulver",
         "0,2–0,3 l Wasser"
@@ -91,7 +109,7 @@
         { "name": "Tee mit Honig", "quantity": "Tasse", "price": "1.80" },
         { "name": "Cappuccino", "quantity": "Tasse", "price": "2.20" },
 
-        { "name": "Schlagsahne", "quantity": "Portion", "price": "0.30" },
+        { "name": "Schlagsahne", "quantity": "25 ml", "price": "0.30" },
         { "name": "Sahne", "quantity": "10 g", "price": "0.30" },
         { "name": "Milch", "quantity": "1,00 l", "price": "4.00" }
       ]
