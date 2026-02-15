@@ -136,7 +136,6 @@
 
         { "name": "Hell Energy Drink", "quantity": "0,25 l", "price": "2.50" },
         { "name": "Iso Twist", "quantity": "0,50 l", "price": "3.00" },
-        { "name": "Hidra", "quantity": "0,50 l", "price": "3.00" },
 
         { "name": "Stilles Wasser", "quantity": "0,50 l", "price": "2.70" },
         { "name": "Zitronenwasser", "quantity": "0,50 l", "price": "2.70" },
