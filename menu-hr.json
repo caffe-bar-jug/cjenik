@@ -165,6 +165,7 @@
             { "name": "Carlsberg", "quantity": "0,40 l", "price": "3.00" },
             { "name": "Blanc", "quantity": "0,33 l", "price": "3.00" },
 
+            { "name": "Heineken", "quantity": "0,25 l", "price": "3.00" },
             { "name": "Heineken", "quantity": "0,40 l", "price": "3.00" },
             { "name": "Heineken bez alkohola", "quantity": "0,33 l", "price": "3.00" }
         ]
