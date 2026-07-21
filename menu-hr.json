@@ -243,6 +243,11 @@
           "price": "3.00"
         },
         {
+          "name": "Hidra",
+          "quantity": "0,50 l",
+          "price": "3.00"
+        },
+        {
           "name": "Negazirana voda",
           "quantity": "0,50 l",
           "price": "2.70"
